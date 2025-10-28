@@ -1,5 +1,5 @@
 export const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
-
+console.log("API KEY:", import.meta.env.VITE_NEWS_API_KEY);
 export const CATEGORIES = [
   { id: 'general', name: 'General' },
   { id: 'world', name: 'World' },
